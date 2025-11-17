@@ -14,11 +14,14 @@
     
     <script type="text/babel">
 
+        const estilo = {
+            color: 'blue',
+            backgroundColor: 'lightgray',
+            padding: '0px',
+            borderRadius: '20px'
+        };
         ReactDOM.createRoot(document.getElementById('root')).render(
-            <>
-            <h1>Olá, React!</h1>
-            <h1>Olá, React!</h1>
-            </>
+            <h1 style = {estilo}>Estilo inline</h1>
         );
     </script>
 
